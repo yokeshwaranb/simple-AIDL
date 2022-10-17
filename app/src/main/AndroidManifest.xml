@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleAIDL"
         tools:targetApi="31">
+
+        <service
+            android:name=".MyRemoteService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
